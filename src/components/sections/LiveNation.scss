@@ -1,0 +1,29 @@
+@import '../../styles/variables';
+
+.ln-container {
+  /*width: 100%;
+  max-width: 70rem;
+  padding: 0 1.5rem;
+  margin: 3rem auto;*/
+  position: relative;
+}
+
+.ln-bg {
+  max-width: 100%;
+  z-index: 1;
+  position: relative;
+}
+
+.ln-logo {
+  max-width: 200px;
+}
+
+.ln-content {
+  z-index: 5;
+  color: white;
+  position: absolute;
+  text-align: center;
+  left: 0;
+  width: 100%;
+  top: 40px;
+}
