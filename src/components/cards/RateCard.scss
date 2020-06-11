@@ -1,25 +1,31 @@
+@import '../../styles/variables';
+
 .rate-container {
   background-color: white;
   border-top-right-radius: 80px;
-  box-shadow: 13px 18px 46px -9px rgba(0,0,0,0.53);
+  box-shadow: 13px 18px 46px -35px rgba(0,0,0,0.53);
   text-align: left;
   min-width: 300px;
   justify-self: stretch;
 
   .rate-info {
     padding: 2.5rem;
-    border-bottom: 1px solid gray;
+    border-bottom: 2px solid $darkgrey;
   }
 
   .details {
     padding: 1rem;
+    color: $blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .super {
     text-transform: uppercase;
-    color: #5bbb5b;
+    color: $green;
     font-size: 0.8rem;
-    font-weight: 800;
+    font-weight: 700;
     margin: 0;
   }
 
@@ -30,5 +36,19 @@
 
   .apr {
     font-size: .8rem;
+  }
+
+  /* Could not export plus symbol from sketch */
+  .plus {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background:
+            linear-gradient($blue, $blue),
+            linear-gradient($blue, $blue);
+    background-position:center;
+    background-size: 50% 2px,2px 50%; /*thickness = 2px, length = 50% (25px)*/
+    background-repeat:no-repeat;
+    cursor: pointer;
   }
 }
