@@ -6,10 +6,12 @@ const RateCard = (props) => {
   const onDetails = () => {};
 
   return (
-    <div className={'container'}>
-      <h4 className={'super'}>{props.type}</h4>
-      <h3 className={'length'}>{props.length}</h3>
-      <p>{props.apr}</p>
+    <div className={'rate-container'}>
+      <div className={'rate-info'}>
+        <h4 className={'super'}>{props.type}</h4>
+        <h3 className={'length'}>{props.length}</h3>
+        <p className={'apr'}>APR: {props.apr}</p>
+      </div>
       <div className={'details'}>
         <span>Details</span>
         <span>

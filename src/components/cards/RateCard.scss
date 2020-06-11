@@ -1,4 +1,34 @@
-.container {
+.rate-container {
   background-color: white;
-  border-top-right-radius: 100px;
+  border-top-right-radius: 80px;
+  box-shadow: 13px 18px 46px -9px rgba(0,0,0,0.53);
+  text-align: left;
+  min-width: 300px;
+  justify-self: stretch;
+
+  .rate-info {
+    padding: 2.5rem;
+    border-bottom: 1px solid gray;
+  }
+
+  .details {
+    padding: 1rem;
+  }
+
+  .super {
+    text-transform: uppercase;
+    color: #5bbb5b;
+    font-size: 0.8rem;
+    font-weight: 800;
+    margin: 0;
+  }
+
+  .length {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+  }
+
+  .apr {
+    font-size: .8rem;
+  }
 }

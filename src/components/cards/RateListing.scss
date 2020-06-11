@@ -2,7 +2,8 @@
 
 .list {
   display: grid;
-  grid-column-gap: 2rem;
+  grid-gap: 1rem;
+  justify-items: center;
 }
 
 @media (min-width: $small) {

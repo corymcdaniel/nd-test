@@ -9,7 +9,7 @@ function App() {
         <img src={'images/Hero.png'} alt={'S&T Bank Personal Credit Cards'} />
       </div>
 
-      <section>
+      <section className={'mortgage-rates'}>
         <h2>Mortgage Rates</h2>
         <RateListing />
       </section>
