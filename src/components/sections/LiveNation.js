@@ -2,10 +2,10 @@ import React from 'react';
 import Button from '../buttons/Button';
 import './LiveNation.scss';
 
-//TODO: Grey banner behind image
-
 const LiveNation = () => {
-  const onOpenAccount = () => {};
+  const onOpenAccount = () => {
+    console.log('page redirect?');
+  };
 
   return (
     <div className={'ln-container'}>
