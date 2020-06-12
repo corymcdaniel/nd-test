@@ -1,5 +1,5 @@
 import React from 'react';
-import PrimaryButton from '../buttons/PrimaryButton';
+import Button from '../buttons/Button';
 import './LiveNation.scss';
 
 //TODO: Grey banner behind image
@@ -18,7 +18,7 @@ const LiveNation = () => {
           <br />
           Our partnership with LiveNation means you're a VIP.
         </p>
-        <PrimaryButton onClick={onOpenAccount} text={'Open an account'} />
+        <Button onClick={onOpenAccount} text={'Open an account'} />
       </div>
       <img src={'images/livenation-bg.png'} alt={'LiveNation'} className={'ln-bg'} />
     </div>

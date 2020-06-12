@@ -1,10 +1,9 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import rates from '../../data/rates.json';
 import RateCard from './RateCard';
 import './RateListing.scss';
 
-const RateListing = (props) => {
+const RateListing = () => {
   const list = rates.map((rate, i) => {
     return (
       <li key={i}>
@@ -20,10 +19,6 @@ const RateListing = (props) => {
   });
 
   return <ul className={'list'}>{list}</ul>;
-};
-
-RateListing.propTypes = {
-  // myProp: PropTypes.string.isRequired
 };
 
 export default RateListing;

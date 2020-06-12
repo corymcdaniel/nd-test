@@ -1,0 +1,61 @@
+@import '../../styles/variables';
+
+.cta-container {
+  display: grid;
+  align-items: center;
+  grid-gap: 2rem;
+  font-weight: 300;
+
+  .super {
+    text-transform: uppercase;
+    color: $green;
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  h3 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 1rem 0;
+  }
+
+  ul {
+    margin: 1rem;
+    li {
+      margin: 1rem 0;
+    }
+  }
+
+  ul li::before {
+    content: "\2022";
+    color: $green;
+    font-weight: bold;
+    display: inline-block;
+    width: 1rem;
+    margin-left: -1em;
+  }
+
+  img {
+    max-width: 100%;
+    padding-top: 1rem;
+  }
+
+  .btn-container {
+    display: grid;
+    grid-gap: 1rem;
+    padding-top: 1rem;
+  }
+}
+
+@media all and (min-width: $small) {
+  .cta-container {
+    grid-template-columns: 1.5fr 1fr;
+  }
+
+  .btn-container {
+    grid-template-columns: 1fr 1fr;
+
+  }
+;
+}

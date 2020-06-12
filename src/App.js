@@ -2,6 +2,7 @@ import React from 'react';
 import './App.scss';
 import RateListing from './components/cards/RateListing';
 import LiveNation from './components/sections/LiveNation';
+import CtaWithImage from './components/sections/CtaWithImage';
 
 function App() {
   return (
@@ -17,6 +18,10 @@ function App() {
 
       <section className={'live-nation'}>
         <LiveNation />
+      </section>
+
+      <section className={'cta'}>
+        <CtaWithImage />
       </section>
     </div>
   );

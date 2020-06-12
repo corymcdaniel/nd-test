@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './RateCard.scss';
-import PrimaryButton from '../buttons/PrimaryButton';
+import Button from '../buttons/Button';
 
 const RateCard = (props) => {
   const onDetails = () => {};
@@ -15,7 +15,7 @@ const RateCard = (props) => {
         <h4 className={'super'}>{props.type}</h4>
         <h3 className={'length'}>{props.length}</h3>
         <p className={'apr'}>APR: {props.apr}</p>
-        <PrimaryButton onClick={onOpenAccount} text={'Open an account'} />
+        <Button onClick={onOpenAccount} text={'Open an account'} />
       </div>
       <div className={'details'}>
         <span>Details</span>

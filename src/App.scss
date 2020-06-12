@@ -1,19 +1,16 @@
-.App {
-
-}
+@import "./styles/variables";
 
 /*TODO: Come back to this*/
 .hero {
   img {
-    width: 100vw;
+    max-width: 100vw;
   }
 }
 
 section {
-  width: 100%;
   max-width: 70rem;
   padding: 0 1.5rem;
-  margin: 3rem auto;
+  margin: 5rem auto;
 }
 
 .mortgage-rates {
@@ -26,4 +23,9 @@ section {
 .live-nation {
   padding: 0;
   margin: 0 auto;
+}
+
+@media (min-width: $medium) {
+  section {
+  }
 }
