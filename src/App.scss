@@ -1,8 +1,8 @@
 @import "./styles/variables";
 
-/*TODO: Come back to this*/
 .hero {
   img {
+    width: 100%;
     max-width: 100vw;
   }
 }
@@ -10,7 +10,7 @@
 section {
   max-width: 70rem;
   padding: 0 1.5rem;
-  margin: 5rem auto;
+  margin: 3rem auto;
 }
 
 .mortgage-rates {
@@ -22,7 +22,7 @@ section {
 
 .live-nation {
   padding: 0;
-  margin: 0 auto;
+  margin: 2rem auto;
 }
 
 @media (min-width: $medium) {

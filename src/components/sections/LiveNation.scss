@@ -53,6 +53,10 @@
 @media (min-width: $medium) {
 
   .ln-content {
+    button {
+      margin: 1rem 0;
+    }
+
     h2 {
       font-size: 3rem;
       margin: 1.5rem 0;

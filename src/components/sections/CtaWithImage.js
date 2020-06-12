@@ -26,7 +26,7 @@ const CtaWithImage = () => {
 
         <div className={'btn-container'}>
           <Button onClick={onPrimaryCta} text={'Primary Cta'} type={BUTTON_TYPES.PRIMARY} />
-          <Button onClick={onPrimaryCta} text={'Primary Cta'} type={BUTTON_TYPES.SECONDARY} />
+          <Button onClick={onPrimaryCta} text={'Open an account'} type={BUTTON_TYPES.SECONDARY} />
         </div>
       </div>
     </div>

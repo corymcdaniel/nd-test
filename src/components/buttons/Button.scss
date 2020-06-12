@@ -7,15 +7,25 @@
   border-radius: 5px;
   padding: .5rem 1.5rem;
   cursor: pointer;
+  transition: all 300ms;
 }
 
 .primary-btn {
   background-color: $blue;
   color: white;
+
+  &:hover {
+    background-color: darken($blue, 5%);
+  }
 }
 
 .secondary-btn {
   background-color: white;
   color: $blue;
   border: 2px solid $blue;
+
+  &:hover {
+    color: darken($blue, 5%);
+    border: 2px solid darken($blue, 5%);
+  }
 }
