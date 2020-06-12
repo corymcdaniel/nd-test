@@ -1,9 +1,10 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import PrimaryButton from '../buttons/PrimaryButton';
 import './LiveNation.scss';
 
-const LiveNation = (props) => {
+//TODO: Grey banner behind image
+
+const LiveNation = () => {
   const onOpenAccount = () => {};
 
   return (
@@ -22,10 +23,6 @@ const LiveNation = (props) => {
       <img src={'images/livenation-bg.png'} alt={'LiveNation'} className={'ln-bg'} />
     </div>
   );
-};
-
-LiveNation.propTypes = {
-  // myProp: PropTypes.string.isRequired
 };
 
 export default LiveNation;

@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.scss';
 import RateListing from './components/cards/RateListing';
-import PrimaryButton from './components/buttons/PrimaryButton';
 import LiveNation from './components/sections/LiveNation';
 
 function App() {

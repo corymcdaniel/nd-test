@@ -23,7 +23,13 @@
   color: white;
   position: absolute;
   text-align: center;
-  left: 0;
+  left: 50%;
   width: 100%;
-  top: 40px;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+
+  h2 {
+    font-size: 3rem;
+    margin: 1.5rem 0;
+  }
 }
