@@ -15,7 +15,7 @@
 }
 
 .ln-logo {
-  max-width: 200px;
+  max-width: 120px;
 }
 
 .ln-content {
@@ -29,7 +29,37 @@
   transform: translateX(-50%) translateY(-50%);
 
   h2 {
-    font-size: 3rem;
-    margin: 1.5rem 0;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: $small) {
+  .ln-logo {
+    max-width: 200px;
+  }
+
+  .ln-content {
+    p {
+      font-size: 0.9rem;
+    }
+  }
+}
+
+@media (min-width: $medium) {
+
+  .ln-content {
+    h2 {
+      font-size: 3rem;
+      margin: 1.5rem 0;
+    }
+
+    p {
+      font-size: 1rem;
+    }
   }
 }
